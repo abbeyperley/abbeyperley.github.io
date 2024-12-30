@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Abbey Perley</title>
+
+        <!-- FAVICON -->
+        <link rel="icon" type="image/x-icon" href="imgs/favicon.png">
+
+        <!-- CSS -->
+        <link href="css/normalize.css" rel="stylesheet">	
+        <link href="css/main.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.17/dist/lenis.css">
+
+        <!-- JS -->
+        <script src="js/main.js" defer></script>
+    </head>
+
+    <body>
+        <!-- NAV BAR -->
+        <header>
+            <a href="index.html">
+                <img class="logo" src="imgs/logo.gif" alt="Home page" width="700" height="400"> 
+            </a>
+            
+            <nav>
+                <a href="index.html#projects">work</a>
+                <a href="about.html">about</a>
+                <a href="https://drive.google.com/file/d/1h4aRLN7vbJTFWOVj3zuPwxdDJqAaMQ0P/view?usp=sharing" target="_blank">resume</a>
+            </nav>
+        </header>
+
+        <!-- cursor thing -->
+        <div class="circle"></div>
+
+        <main>
+            <!-- VIDEO, TITLE, AND CONTRIBUTOR INFO -->
+            <section class="project-page-margins title-margin">
+
+                <div class="project-intro">
+                    <div class="video-header">
+                        <h1 class="project-title-size">jazzdor festival microsite</h1>
+                        <p class="project-priming">Art direction, microsite, and UI animation for the Jazzdor Festival, a semi-annual European jazz festival. Our final product complemented the nuances of jazz through an explorative audio-based experience that music enthusiasts would visit after the live festival ended.
+                        </p>
+                        <p class="caption">This is a case study purely for research purposes!</p>
+                    </div>
+
+                    <div class="stats-flex">
+                        <div class="stats">
+                            <p class="bold">roles</p>
+                            <p>ui design</p>
+                            <p>ui animation</p>
+                            <p>art direction</p>
+                        </div>
+
+                        <div class="stats">
+                            <p class="bold">software</p>
+                            <p>figma</p>
+                            <p>after effects</p>
+                        </div>
+                        
+                        <div class="stats">
+                            <p class="bold">team</p>
+                            <p>Jaden Lee</p>
+                            <p>Emily Xu</p>
+                            <p>Daphne Borrel</p>
+                            <p>Megan Yung</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-container project-page-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/GMyhAFogWWM?si=OOQZwtJ1B89AgSgB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+            </section>
+
+            <section class="project-page-margins">
+                <div class="work-header">
+                    <h2>the poster</h2>
+                </div>
+
+                <div class="work-body">
+                    <div>
+                        <p>3 out of the 5 weeks of our project were spent developing a final poster to stand as the chassis to our microsite (which is a story for another day). Our goal was to drive geometry placement through typography, which we achieved by leveraging the flare of our display typeface PP Rader.</p>
+                        <p class="subheader-size max-width-35">I chose GT Walsheim for supporting copy, since the punchy dots over the j in 'jazz' would be used a lot.</p>
+                    </div>
+                </div>
+
+                <img class="image-under-text about-photo" src="imgs/jazzdor/jazzdorposter.png" id="jazzdorposter" alt="3 posters of the same design: 1 blue, 1 white, and 1 black, with 'Jazzdor' written vertically in large letters" width="1790" height="847">
+            </section>
+
+            <section class="project-page-margins">
+                <div class="work-header">
+                    <h2>the content</h2>
+                </div>
+
+                <div class="work-body align-items-end">
+                    <div>
+                        <p>
+                            Through some digging, my teammates discovered three heavily-curated playlists from Jazzdor's 2022/2023 festival on their <a class="text-decoration" target="_blank" href="https://soundcloud.com/jazzdor">official Soundcloud</a> that barely had any listens. Each playlist was representative of a different emotional tone of jazz. 
+                        </p>
+
+                        <p class="subheader-size max-width-35">We chose to build the microsite around these playlists, providing three pages of jazz discovery. Inside, we brought forward subtle meanings and relationships between instruments for each song.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="project-page-margins">
+                <div class="work-header">
+                    <h2>microsite tests</h2>
+                </div>
+
+                <div class="work-body">
+                    <div>
+                    <p>Before settling on our final microsite idea, each of us spent some time testing. I fully developed the interaction and motion for one idea, a narrative-driven experience focused on the exploration of jazz through community interviews. 
+                    </p>
+
+                    <p class="subheader-size max-width-35">This ended up being a proof-of-concept for one of our most used interactions: hiding images under texture, then revealing them on hover, which I got to animate for the final UI later.</p>
+                    </div>
+
+                </div>
+
+                    <div class="three-video-grid">
+                        <div>
+                            <img class="about-photo" id="jazzdor_test1" src="imgs/jazzdor/test1.png" alt="Grey textured screen with the text 'Can jazz be truly understood?' in the middle" width="1920" height="1080">
+                        </div>
+
+                        <div>
+                            <img class="about-photo" id="jazzdor_test2" src="imgs/jazzdor/test2.png" alt="A video in the middle of a grey textured screen with supporting text to the right" width="1920" height="1080">
+                        </div>
+
+                        <div>
+                            <video class="case-study-video about-photo" id="jazzdor_test3" autoplay muted loop src="imgs/jazzdor/test3.mp4" aria-label="Image turns into a video on cursor hover" width="1920" height="1080"></video> 
+                        </div>
+                    </div>
+            </section>
+
+            <section class="project-page-margins">
+                <div class="work-header">
+                    <h2>the microsite, 1 - landing page</h2>
+                </div>
+
+                <div class="work-body">
+                    <div>
+                        <p class="subheader-size max-width-35">Our landing page features the emotions and shape languages that we derived from the three playlists. We repurpose the shapes from this page as our navigation in the home page. 
+                        </p>
+                    </div>
+                    
+                    <video class="case-study-video un-margin" autoplay muted loop src="imgs/jazzdor/menupage_fixed.mp4" aria-label="3 options: Classic (blue), Experimental (red), Emotional(green); user picks Classic" width="1920" height="1080"></video>
+                </div>
+            </section>
+
+            <section class="project-page-margins">
+                <div class="work-header">
+                    <h2>2 - home page</h2>
+                </div>
+
+                <div class="work-body">
+                    <div>
+                        <p class="subheader-size max-width-35">Our cursor expands to fit inside geometry and locks to indicate interactivity. Once they select a song, the user is taken into the song page. The transition between pages repurposes the playlist menu into the new song menu.
+                        </p>
+                    </div>
+                    
+                    <video class="case-study-video un-margin" autoplay muted loop src="imgs/jazzdor/finalhomepage.mp4" aria-label="Cursor clicks a shape in the title 'Bleue' and song analyses appear in the center" width="1920" height="1080"></video>
+                </div>
+            </section>
+
+            <section class="project-page-margins">
+                <div class="work-header">
+                    <h2>3 - song page</h2>
+                </div>
+
+                <div class="work-body">
+                    <div>
+                        <p class="subheader-size max-width-35">Throughout the song page, I animated and designed the micro-interactions between the cursor and surrounding objects. The song page features analyses of the selected song.
+                        </p>
+                    </div>
+                    
+                    <video class="case-study-video un-margin" autoplay muted loop src="imgs/jazzdor/SongMeaning1.mp4" aria-label="User clicks the next analysis and the song fast-forwards" width="1920" height="1080"></video>
+                </div>
+            </section>
+
+            <section class="project-page-margins">
+                <div class="work-body">
+                    <div>
+                        <p class="subheader-size max-width-35">When hovering over images, the cursor molds to its shape and strips back the texture to reveal the photograph. To indicate the user's control, the annotation and image shift with the cursor until it's pulled away.
+                        </p>
+                    </div>
+                    
+                    <video class="case-study-video un-margin" autoplay muted loop src="imgs/jazzdor/SongMeaning2.mp4" aria-label="Annotation of a spider image pops up and spider is revealed on cursor hover over the image" width="1920" height="1080"></video>
+                </div>
+            </section>
+
+            <section class="project-page-margins">
+                <div class="work-header">
+                    <h2>4 - artist page</h2>
+                </div>
+
+                <div class="work-body">
+                    <div>
+                        <p class="subheader-size max-width-35">Site visitors can view content about artists that focuses on information that can be heard or revealed through their music.
+                        </p>
+                    </div>
+                    
+                    <video class="case-study-video un-margin" autoplay muted loop src="imgs/jazzdor/newbandpage.mp4" aria-label="Annotation about selected artist pops up on cursor hover over image, also outlining the artist in yellow" width="1920" height="1080"></video>
+                </div>
+            </section>
+
+            <section class="project-page-margins">
+                <div class="work-header">
+                    <h2>finale</h2>
+                </div>
+
+                <div class="work-body">
+                    <p>For the sake of finishing the project on time, we could only flesh out one of the three playlist directions (la playlist bleue). I feel like it would be fun to go back and do some tests for 'la playlist rouge' and 'la playlist verte' as well to see what would change and what could be different!</p>
+                    <p>Speaking from 2024, this project is nearly 2 years old by now. If I redid it tomorrow, I think I'd try to explore motion other than fading and sliding, but it was good at the time to practice my graph editor skills :&#41;</p>
+                </div>
+            </section>
+
+            <section class="project-page-margins">
+                <a href="#top" class="buttons">back to top</a>
+            </section>
+        </main> 
+           
+        <footer>
+            <div class="sendoff">
+                <img class="footer-anim" src="imgs/stars.gif" loading="lazy" alt="" width="700" height="400">
+                <p class="footer-link last-updated">last updated: december 2024</p>
+            </div>
+
+            <div class="sendoff">
+                <p class="footer-link">abbeyperley@gmail.com</p>
+                <a href="https://www.linkedin.com/in/abbeyperley" class="footer-link" target="_blank">linkedin</a>
+                <a href="https://www.instagram.com/abbeedesigns" class="footer-link" target="_blank">instagram</a>
+            </div>
+        </footer>
+
+        <!-- GSAP -->
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+        <!-- Scroll library: https://github.com/darkroomengineering/lenis -->
+        <script src="https://unpkg.com/lenis@1.1.17/dist/lenis.min.js"></script> 
+    </body>
+
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Abbey Perley</title>
+
+        <!-- FAVICON -->
+        <link rel="icon" type="image/x-icon" href="imgs/favicon.png">
+
+        <!-- CSS -->
+        <link href="css/normalize.css" rel="stylesheet">	
+        <link href="css/main.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.17/dist/lenis.css">
+
+        <!-- JS -->
+        <script src="js/main.js" defer></script>
+    </head>
+
+    <body>
+        <!-- NAV BAR -->
+        <header>
+            <a href="index.html">
+                <img class="logo" src="imgs/logo.gif" alt="Home page" width="700" height="400"> 
+            </a>
+            
+            <nav>
+                <a href="index.html#projects">work</a>
+                <a href="about.html" class="current">about</a>
+                <a href="https://drive.google.com/file/d/1h4aRLN7vbJTFWOVj3zuPwxdDJqAaMQ0P/view?usp=sharing" target="_blank">resume</a>
+            </nav>
+        </header>
+
+        <main>
+            <!-- TITLE AND REEL -->
+            <section class="about-grid">
+                <div class="intro-header">
+                    <div>
+                        <h1>a bit of me</h1>
+                        <p class="subheader-size about-subheader">I'm a motion designer who believes in telling stories through more than words. As a kid, I was obsessed with writing 'books' about anything I could find, and quickly realized once I hit the internet age that Word documents and printer paper stapled together weren't the only outlets for them.</p>
+                        <p class="subheader-size about-subheader">I see motion as a way to surface emotional connections between people and media, whether it’s a part of a UI or a cinematic meant to be seen in a theatre. Movement is so engrained in our perception of the world that without it, I think we miss out on opportunities to communicate.</p>
+                        <p class="subheader-size about-subheader">I spend whatever free time I have fixating on video games with rich animation, imagining elaborate storylines alongside my playlists, and writing fiction.</p>
+                    </div>
+<!-- 
+                    <div class="about-captions">  
+                        <p class="caption">1&#41; me in a plant store :&#41;</p>
+                        <p class="caption">2&#41; my favourite show, Arcane</p>
+                        <p class="caption">3&#41; one of my favourite games, Celeste</p>
+                        <p class="caption">4&#41; been listening to a lot of Porter Robinson lately</p>
+                    </div> -->
+
+                    <div class="indiv-caption">
+                        <p class="caption">me in a plant store :&#41;</p>
+                    </div>
+                </div>
+
+                <!-- all images go in here in their own divs -->
+                <div class="about-images">
+                    <div class="circle"></div>
+
+                    <div class="img-1 overflow-hidden">
+                        <img
+                            id="me"
+                            class="about-photo" 
+                            src="imgs/about/me.webp" 
+                            alt="A mirror selfie with plants in the foreground" 
+                            width="1678" 
+                            height="2225" 
+                            loading="lazy" 
+                            srcset="imgs/about/me.webp 1675w,
+                                    imgs/about/me-smaller.webp 840w"
+                            sizes="(min-width: 52.5rem) 840w, 1675w"
+                        >
+                    </div>
+
+                    <div class="img-2 overflow-hidden">
+                        <img 
+                            id="celeste"
+                            class="about-photo" 
+                            src="imgs/about/celeste.webp" 
+                            alt="Pink pixel-art of a girl jumping mid-air among clouds" 
+                            width="1357" 
+                            height="1146" 
+                            loading="lazy"
+                            srcset="imgs/about/celeste.webp 1355w,
+                                    imgs/about/celeste-smaller.webp 680w"
+                            sizes="(min-width 42.5rem) 680w, 1355w"
+                        >
+                    </div>
+
+                    <div class="img-3 overflow-hidden">
+                        <img
+                            id="powder"
+                            class="about-photo"  
+                            src="imgs/about/powder.webp" 
+                            alt="Drawing of a girl with blue hair in two buns smiling" 
+                            width="1791" 
+                            height="1060" 
+                            loading="lazy"
+                            srcset="imgs/about/powder.webp 1790w,
+                                    imgs/about/powder-smaller.webp 895w"
+                            sizes="(min-width 56rem) 895w, 1790w">
+                    </div>
+
+                    <div class="img-4 overflow-hidden">
+                        <img 
+                            id="nurture"
+                            class="about-photo" 
+                            src="imgs/about/nurture.webp" 
+                            alt="A man lying face-down in a field of flowers" 
+                            width="2294" 
+                            height="2065" 
+                            loading="lazy"
+                            srcset="imgs/about/nurture.webp 2295w,
+                                    imgs/about/nurture-smaller.webp 1145w"
+                            sizes="(min-width 71.5rem) 1145w, 2295w">
+                    </div>
+                </div>
+            </section>
+        </main>
+           
+        <footer>
+            <div class="sendoff">
+                <img class="footer-anim" src="imgs/stars.gif" loading="lazy" alt="" width="700" height="400">
+                <p class="footer-link last-updated">last updated: december 2024</p>
+            </div>
+
+            <div class="sendoff">
+                <p class="footer-link">abbeyperley@gmail.com</p>
+                <a href="https://www.linkedin.com/in/abbeyperley" class="footer-link" target="_blank">linkedin</a>
+                <a href="https://www.instagram.com/abbeedesigns" class="footer-link" target="_blank">instagram</a>
+            </div>
+        </footer>
+
+        <!-- GSAP -->
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+        <!-- Scroll library: https://github.com/darkroomengineering/lenis -->
+        <script src="https://unpkg.com/lenis@1.1.17/dist/lenis.min.js"></script> 
+    </body>
+
+</html>
