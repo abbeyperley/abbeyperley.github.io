@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Abbey Perley</title>
+
+        <!-- FAVICON -->
+        <link rel="icon" type="image/x-icon" href="imgs/favicon.png">
+
+        <!-- CSS -->
+        <link href="css/normalize.css" rel="stylesheet">	
+        <link href="css/main.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.17/dist/lenis.css">
+
+        <!-- JS -->
+        <script src="js/main.js" defer></script>
+    </head>
+
+    <body>
+        <!-- NAV BAR -->
+        <header>
+            <a href="index.html">
+                <img class="logo" src="./assets/imgs/logo.gif" alt="Home page" width="700" height="400"> 
+            </a>
+            
+            <nav>
+                <a href="#projects" class="current">work</a>
+                <a href="about.html">about</a>
+                <a href="https://drive.google.com/file/d/1h4aRLN7vbJTFWOVj3zuPwxdDJqAaMQ0P/view?usp=sharing" target="_blank">resume</a>
+            </nav>
+        </header>
+
+        <!-- cursor thing -->
+        <div class="circle"></div>
+
+        <main>
+            <!-- TITLE AND REEL -->
+            <section class="reel-section">
+                <div class="intro-header">
+                    <div>
+                        <h1>hi, I'm abbey!</h1>
+                        <p class="subheader-size">a motion designer and narrative enthusiast based in Vancouver, BC. I'm focused on human stories and movement, and how the two are inherently intertwined :&#41;</p>
+                    </div>
+                </div>
+
+                <!-- video link embed: https://www.youtube.com/watch?v=kLVDWXIyakg&ab_channel=WaatzDeveloper -->
+                <div class="video-container">
+                    <iframe src="https://player.vimeo.com/video/1036563649?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Abbey Perley Motion Reel 2024"></iframe>
+                </div>
+            </section>
+
+            <section class="work-section" id="projects">
+                <div class="work-header">
+                    <h2 aria-hidden="true" class="line-decor">──</h2>
+                    <h2>work</h2>
+                </div>
+
+                <div class="project-grid">
+                    <div>
+                        <a href="jaykiew.html" class="project-link">
+                            <video class="absolute" muted loop src="imgs/jaykiewbgvideo.mp4" aria-label="Jay Kiew stage video project page"></video>
+
+                            <img class="project-image" src="imgs/jaykiew-thumbnail.webp" loading="lazy" alt="" width="1367" height="1080">
+                        </a>
+                        <div class="project-title-details">
+                            <h3>Jay Kiew stage video</h3>
+                            <p>2D motion graphics</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="tedx.html" class="project-link">
+                            <video class="absolute" muted loop src="imgs/tedxvideo.mp4" aria-label="TEDxSFU cinematic video project page"></video>
+
+                            <img class="project-image" src="imgs/tedxthumbnail.webp" loading="lazy" alt="" width="1367" height="1080">
+                        </a>
+                        <div class="project-title-details">
+                            <h3>TEDxSFU'23 cinematic</h3>
+                            <p>3D animation</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="jazzdor.html" class="project-link">
+                            <video class="absolute" muted loop src="imgs/jazzdorvideo.mp4" aria-label="Jazzdor festival microsite project page"></video>
+
+                            <img class="project-image" src="imgs/jazzdorthumbnail.webp" loading="lazy" alt="" width="1367" height="1080">
+                        </a>
+                        <div class="project-title-details">
+                            <h3>jazzdor festival microsite</h3>
+                            <p>2D UI animation</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="work-section">
+                <div class="work-header">
+                    <h2 aria-hidden="true" class="line-decor">──</h2>
+                    <h2>fun stuff</h2>
+                </div>
+
+                <div class="project-grid">
+                    <video id="ball" class="case-study-video about-photo" muted loop autoplay src="imgs/funstuff/ball.mp4" aria-label="Pink ball bouncing on a pink and yellow grainy background"></video>
+                    <img id="chapter" class="about-photo" src="imgs/funstuff/chapter.webp" alt="Black and white illustration of an evergreen forest" width="2654" height="2048">
+                    <img id="creationsovercoffee" class="about-photo" src="imgs/funstuff/creationsovercoffee.webp" alt="A coffee cup on a cream and brown background titled 'Creations over Coffee" width="1080" height="1080">
+                    <video id="daynight" class="case-study-video about-photo" muted loop autoplay src="imgs/funstuff/daynight.mp4" aria-label="Toggle sliding, changing the background from light to dark"></video>
+                    <!-- <img id="roomshelf" class="about-photo" src="imgs/funstuff/roomshelf.webp" alt="3D model of a green and pink windowsill and several small objects" width="3840" height="3840"> -->
+                    <img id="overcompensate" class="about-photo" src="imgs/funstuff/overcompensate.webp" alt="Poster with an image of the band Twenty One Pilots and supporting text" width="2480" height="3508">
+                    <video id="cherryblossom" class="case-study-video blossom-video about-photo" muted loop autoplay src="imgs/funstuff/cherryblossom.mp4" aria-label="Animated swipe-through of cherry blossom photos"></video>
+                </div>
+                
+            </section>
+        </main> 
+           
+        <footer>
+            <!-- FOOTER ANIM -->
+            <div class="sendoff">
+                <img class="footer-anim" src="imgs/stars.gif" loading="lazy" alt="" width="700" height="400">
+                <p class="footer-link last-updated">last updated: december 2024</p>
+            </div>
+
+            <div class="sendoff">
+                <p class="footer-link">abbeyperley@gmail.com</p>
+                <a href="https://www.linkedin.com/in/abbeyperley" class="footer-link" target="_blank">linkedin</a>
+                <a href="https://www.instagram.com/abbeedesigns" class="footer-link" target="_blank">instagram</a>
+            </div>
+        </footer>
+
+        <!-- GSAP -->
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+        <!-- Scroll library: https://github.com/darkroomengineering/lenis -->
+        <script src="https://unpkg.com/lenis@1.1.17/dist/lenis.min.js"></script> 
+    </body>
+
+</html>
