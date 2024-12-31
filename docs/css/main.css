@@ -175,6 +175,9 @@ a.current{
     font-weight: normal;
 }
 .buttons{
+    display: block;
+    max-width: 7rem;
+    text-align: center;
     padding: 0.5rem;
     padding-top: 0.35rem;
     padding-bottom: 0.35rem;
