@@ -435,6 +435,63 @@ iframe{
 .indiv-caption{
     display: none;
 }
+/* BENTO BOX */
+.bento-box{
+    background: hsl(36, 100%, 99%);
+    width: 100%;
+    max-width: 1500px;
+    height: 1000px;
+    display: grid;
+    gap: 1.5vw;
+    padding: 1vw;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+        “bb bb cb”
+        “tp bo cb”
+        “tp ww ww”
+        “fx fx dr”
+        “cc pd dr”;
+}
+
+/* .item {
+    border: 2px solid #464545;
+    border-radius: 5px;
+  } */
+  
+  .bento-box .item:nth-child(1) {
+    grid-area: bb;
+  }
+  .bento-box .item:nth-child(2) {
+    grid-area: cb;
+  }
+  
+  .bento-box .item:nth-child(3) {
+    grid-area: tp;
+  }
+  .bento-box .item:nth-child(4) {
+    grid-area: bo;
+  }
+  
+  .bento-box .item:nth-child(5) {
+    grid-area: ww;
+  }
+
+  .bento-box .item:nth-child(6) {
+    grid-area: fx;
+  }
+
+  .bento-box .item:nth-child(7) {
+    grid-area: dr;
+  }
+
+  .bento-box .item:nth-child(8) {
+    grid-area: cc;
+  }
+
+  .bento-box .item:nth-child(8) {
+    grid-area: pd;
+  }
 
 /* MEDIA QUERIES */
 

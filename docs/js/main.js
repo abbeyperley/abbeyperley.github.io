@@ -70,7 +70,11 @@ if (window.innerWidth > 850) {
         "creationsovercoffee": "event post for a design club I helped out with :)",
         "daynight": "idea I had bouncing off of light mode/dark mode",
         "overcompensate": "lyric poster for a favourite band",
-        "cherryblossom": "animated show of cherry blossom photos I took this April"
+        "cherryblossom": "animated show of cherry blossom photos I took this April",
+        "bbb": "light vfx introducing a new concept for a local bookstore",
+        "metoo": "particle vfx for a university short film!",
+        "windwalker": "screencap from a game I made in Unity",
+        "doyouthink": "an animatic I drew on Procreate of my two characters"
     };
 
     gsap.set(circle, {scale: 0.5, xPercent: -50, yPercent: -50});
